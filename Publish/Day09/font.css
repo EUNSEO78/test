@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap');
+@font-face {
+    font-family: 'HSSanTokki20-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+    height: 300vh;
+    background-color: skyblue;
+}
+
+.menu{
+    width: fit-content;
+    border: 3px solid pink;
+    font-size: 30px;
+    padding: 20px;
+
+    position: fixed;
+  /* top or bottom: 0px */
+  /* left or right: 0px */
+  /* top: 100px; */
+  bottom: 10px;
+  left: 10px;
+}
+.morning{
+    font-family: "Black Han Sans", sans-serif;
+}
+.lunch{
+    font-family: "Jua", sans-serif;
+}
+.dinner{
+    font-family: 'HSSanTokki20-Regular';
+}

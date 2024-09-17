@@ -1,0 +1,35 @@
+.mega{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: skyblue;
+
+}
+/* :hover : 마우스 올릴때 바뀜 */
+/* transition : 몇 초간 바뀔건지? */
+.sky{
+    background-color: skyblue;
+    transition: all 3s;
+}
+.sky:hover{
+    background-color: black;
+}
+.black{
+    background-color: black;
+}
+.black:hover{
+    background-color: #c7c7c7;
+}
+.icon > i{
+    font-size: 40px;
+    color: white;
+}

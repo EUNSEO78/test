@@ -1,0 +1,12 @@
+.option{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    width: fit-content;
+    border: 2px solid #c7c7c7;
+    border-radius: 20px;
+    padding: 6px 20px 6px 20px;
+    margin-right: 10px;
+    font-weight: 600;
+}

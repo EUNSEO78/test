@@ -1,0 +1,29 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    /* 주축: 가로 */
+    /* 자식들을 주축으로 맨앞(start) 가운데(center) 맨뒤(end)
+    균일한 간격(space-between or space-around)  */
+    /* 기본: start */
+    justify-content: center;
+    /* 자식들을 교차축으로 (세로) */
+    align-items: center;
+}
+.pink{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+.sky{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+}
+.grey{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}

@@ -1,0 +1,52 @@
+.palette{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 100px;
+    height: 100px;
+
+}
+.one{
+    background-image: url("europe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: pink;
+}
+.two{
+    /* 지금 여기서 움직일게 */
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: skyblue;
+}
+.three{
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    background-color: yellowgreen;
+}
+.four{
+    background-color: yellow;
+}
+.five{
+    z-index: 1;
+    background-color: orchid;
+}
+.six{
+    background-color: olivedrab;
+}
+.seven{
+    background-color: orange;
+}
+.eight{
+    background-color: cornflowerblue;
+}
+.nine{
+    background-color: rgb(240, 93, 218);
+}
+

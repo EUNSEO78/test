@@ -1,0 +1,31 @@
+.sale{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    border-radius: 20px;
+    /* padding: 위 오른쪽 아래 왼쪽 */
+    padding:3px 8px 3px 8px
+}
+.today{
+    background-color: pink;
+    color: white;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 3px 8px 3px 8px;
+}
+.factory {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid red;
+    text-align: center;
+}
+.center {
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid red;
+    text-align: center;
+}

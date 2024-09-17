@@ -1,0 +1,33 @@
+.login{
+    background-color: #EEEEEE;
+    color: #B4B4B4;
+    font-weight: 800;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    text-align: center;
+    width: 500px;
+}
+.netflix{
+    background-color: #E50914;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: small;
+    text-align: center;
+    width: 300px;
+}
+.code{
+    background-color: #8C8C8C;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: small;
+    text-align: center;
+    width: 300px;
+}

@@ -1,0 +1,46 @@
+.story {
+    width: 100px;
+    height: 120px;
+}
+.img {
+    width: 100%;
+    height: 80%;
+    border-radius: 9999px;
+    border: 2px solid purple;
+    padding: 2px;
+}
+.img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+.name {
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+/* .insta {
+    width: 100px;
+    height: 110px;
+    border: 2px solid darkgray;
+    padding: 2px;
+}
+.img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.gram{
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+} */

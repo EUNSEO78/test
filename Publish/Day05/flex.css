@@ -1,0 +1,27 @@
+.musinsa {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .clothes {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  .image {
+    width: 280px;
+    height: 380px;
+  }
+  .image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .discount {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: 900;
+  }

@@ -1,0 +1,39 @@
+.ediya{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.drink{
+    width: 300px;
+    height: 500px;
+    background-color: #F5F5F5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.image{
+    width: 100%;
+    height: 60%;
+}
+.image:hover{
+    transform: scale(1.3);
+}
+.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.name{
+    color: grey;
+    margin: 10px;
+}
+.presentBox{
+    width: fit-content;
+    background-color: #243C84;
+    color: whitesmoke;
+    padding: 5px;
+}
